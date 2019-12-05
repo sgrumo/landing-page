@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Kalam:700|Raleway:400,800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #f6f1e8;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: content-box;
+}
