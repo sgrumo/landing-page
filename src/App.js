@@ -33,7 +33,7 @@ function App() {
       img: "easyaccess",
       pdf: "",
       titolo: "EASYACCESS",
-      sottotitolo: "CEFLA",
+      sottotitolo: "Cefla",
       descrizione: "Gestione e controllo dei macchinari biomedicinali."
     },
     {
