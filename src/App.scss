@@ -25,7 +25,7 @@ h1, .subtitle{
 }
 
 h1 {
-  font-size: 3.75rem;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -38,7 +38,7 @@ h4{
 }
 
 .subtitle{
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-top: $min-margin / 2.5;
   margin-bottom: 3rem;
 }
@@ -46,12 +46,12 @@ h4{
 .project {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 .container {
   p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   padding-right: 1.3rem;
   line-height: 1.75rem;
   }
@@ -87,20 +87,21 @@ footer{
 
 .imgContainer{
   position: relative;
+  width: 24rem;
 }
 
 .visibility{
   position: absolute;
   bottom: 1rem;
-  right: 3rem;
+  right: 2rem;
 }
 
 .project-img {
-  width: 95%;
+  width: 100%;
 }
 
 .logo{
-  width: 13.75rem;
+  width: 13rem;
 }
 
 @media screen and (max-width: 575px) {
@@ -196,22 +197,22 @@ footer{
 
 @media screen and (min-width: 1440px) {
   h1{
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     text-align: center;
   }
   .subtitle {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     text-align: center;
   }
   h3 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .container {
     p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-right: 1.3rem;
     }
     flex-grow: 1;
