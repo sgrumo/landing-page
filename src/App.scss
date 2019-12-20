@@ -88,7 +88,6 @@ footer{
 
 .imgContainer{
   position: relative;
-  width: 24rem;
 }
 
 .visibility{
@@ -105,7 +104,7 @@ footer{
   width: 13rem;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 320px) {
   main{
     display: flex;
     flex-direction: column;
@@ -115,7 +114,6 @@ footer{
   }
   h1{
     font-size: 3rem;
-    text-align: center;
   }
   h3{
     font-size: 1.2rem;
@@ -123,18 +121,22 @@ footer{
   h4{
     font-size: 1.1rem;
   }
+
+  h1, h3, h4 {
+    text-align: center;
+  }
   .subtitle{
     font-size: 1.5rem;
     text-align: center;
   }
   .imgContainer{
-    text-align: center;
+    text-align: left;
   }
   .container {
     margin: 0;
     padding: 0;
     p{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       margin: 0;
       padding: 0;
     }
@@ -149,8 +151,8 @@ footer{
   }
   .visibility{
     position: absolute;
-    bottom: 1.2rem;
-    right: 3.7rem;
+    bottom: 1rem;
+    right: 5.2rem;
     width: 1.7rem;
   }
   .row{
@@ -161,7 +163,66 @@ footer{
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 575px){
+@media screen and (max-width: 375px) and (min-width: 320px){
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+  h4{
+    font-size: 1.1rem;
+  }
+  h1, h3, h4 {
+    text-align: center;
+  }
+
+  .first *, .second *{
+    object-fit: scale-down;
+    height: 1.6rem;
+    padding: 0;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    p{
+      font-size: 1.2rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .logo{
+    width: 10rem;
+  }
+  .row{
+    margin: 0;
+  }
+
+  .visibility{
+    position: absolute;
+    bottom: 0.8rem;
+    right: 5.3rem;
+  }
+}
+
+@media screen and (max-width: 575px) and (min-width: 376px) {
+  h1, h3, h4 {
+    text-align: center;
+  }
+  .row {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px){
   .visibility{
     position: absolute;
     bottom: 0.6rem;
@@ -173,7 +234,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 991px) and (min-width: 767px){
+@media screen and (max-width: 991px) and (min-width: 769px){
   .visibility{
     position: absolute;
     bottom: 0.6rem;
@@ -201,6 +262,18 @@ footer{
   }
   .imgContainer {
     width: 16rem;
+  }
+}
+
+@media screen and (max-width: 1010px) and (min-width: 992x) {
+  .imgContainer {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1011px) {
+  .imgContainer {
+    width: 21rem;
   }
 }
 
