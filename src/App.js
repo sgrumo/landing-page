@@ -33,7 +33,7 @@ function App() {
       img: "easyaccess",
       pdf: "/projects/EASYACCES.pdf",
       titolo: "EASYACCESS",
-      sottotitolo: "CEFLA",
+      sottotitolo: "Cefla",
       descrizione: "Gestione e controllo dei macchinari biomedicinali."
     },
     {
@@ -68,7 +68,7 @@ function App() {
     const imgSet = `/projects/${value.img}.png, /projects/${value.img}@2x.png, /projects/${value.img}@3x.png`;
     const imgSrc = `${value.img}@3x.png`;
     return (
-      <div key={index} className="project col-sm-4">
+      <div key={index} className="project col-12 col-sm-4 col-md-4 col-lg-4">
         <div className="imgContainer">
           <a href={value.pdf}>
             <img className="project-img" srcSet={imgSet}
