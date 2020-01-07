@@ -31,21 +31,21 @@ function App() {
   const projects = [
     {
       img: "easyaccess",
-      pdf: "",
+      pdf: "/projects/EASYACCES.pdf",
       titolo: "EASYACCESS",
       sottotitolo: "CEFLA",
       descrizione: "Gestione e controllo dei macchinari biomedicinali."
     },
     {
       img: "valentina",
-      pdf: "/projects/VST_Connect_Manual.pdf",
+      pdf: "/projects/VALENTINA.pdf",
       titolo: "VALENTINA",
       sottotitolo: "BPER",
       descrizione: "Progetto di intelligenza artificiale applicata ad un umanoide per il digital banking."
     },
     {
       img: "scenario",
-      pdf: "/projects/ReadMe.pdf",
+      pdf: "/projects/ESS.pdf",
       titolo: "ECONOMIC SCENARIO SERVICE",
       sottotitolo: "Prometeia",
       descrizione: "Un servizio per integrare la gestione di scenari di mercato all'interno dei propri processi decisionali."
