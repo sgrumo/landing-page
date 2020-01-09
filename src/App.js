@@ -75,6 +75,7 @@ function App() {
               src={imgSrc} alt={value.titolo} />
             <img src="/projects/visibility.png" alt="visibility" className="visibility" />
           </a>
+          <div className="overlay-box"></div>
         </div>
         <h3>{value.titolo}</h3>
         <h4>{value.sottotitolo}</h4>

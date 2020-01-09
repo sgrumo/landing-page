@@ -68,8 +68,8 @@ h4 {
 }
 
 .row {
-  margin-right: -30px;
-  margin-left: -30px;
+  // margin-right: -30px;
+  // margin-left: -30px;
   .img-fluid {
     object-fit: scale-down;
     height: 2.7rem;
@@ -92,6 +92,11 @@ footer {
 
 .imgContainer {
   position: relative;
+
+  &:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
 }
 
 .visibility {
@@ -109,6 +114,10 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+  .project-img {
+    width: 100%;
+  }
+
   main {
     display: flex;
     flex-direction: column;
@@ -220,6 +229,9 @@ footer {
     bottom: 1rem;
     right: 2rem;
   }
+  .project-img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 575px) and (min-width: 376px) {
@@ -231,6 +243,9 @@ footer {
 
   .row {
     margin: 0;
+  }
+  .project-img {
+    width: 100%;
   }
 }
 
