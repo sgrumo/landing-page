@@ -34,14 +34,14 @@ function App() {
       pdf: "/projects/EASYACCES.pdf",
       titolo: "EASYACCESS",
       sottotitolo: "Cefla",
-      descrizione: "Gestione e controllo dei macchinari biomedicinali."
+      descrizione: "Gestione e controllo dei macchinari biomedicali."
     },
     {
       img: "valentina",
       pdf: "/projects/VALENTINA.pdf",
       titolo: "VALENTINA",
       sottotitolo: "BPER",
-      descrizione: "Progetto di intelligenza artificiale applicata ad un umanoide per il digital banking."
+      descrizione: "Progetto di intelligenza artificiale applicata a un assistente virtuale per il digital banking."
     },
     {
       img: "scenario",
