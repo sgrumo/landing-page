@@ -1,8 +1,17 @@
 import React from "react";
 import "./App.scss";
 import { ReactComponent as Logo } from './logoAntreem.svg';
+import ReactGA from "react-ga";
 
 function App() {
+  ReactGA.initialize("UA-59238164-13");
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
+  ReactGA.ga("send", "pageview", "casehistory.antreem.com");
+
+  const sendEvent = (pdfName) => {
+    ReactGA.event({ category: 'Link', action: 'Open PDF', label: pdfName })
+  }
 
   const imgFooterFirst = [
     "/partner/alfasigma",
@@ -70,7 +79,7 @@ function App() {
     return (
       <div key={index} className="project col-12 col-sm-4 col-md-4 col-lg-4">
         <div className="imgContainer">
-          <a href={value.pdf}>
+          <a href={value.pdf} onClick={() => sendEvent(value.titolo)}>
             <img className="project-img" srcSet={imgSet}
               src={imgSrc} alt={value.titolo} />
             <img src="/projects/visibility.png" alt="visibility" className="visibility" />
