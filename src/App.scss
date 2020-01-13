@@ -88,6 +88,11 @@ footer {
   box-shadow: 0 -5px 10px -5px;
   height: 100%;
   width: 100%;
+
+  .col {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
 }
 
 .imgContainer {

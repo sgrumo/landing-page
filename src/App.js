@@ -21,7 +21,7 @@ function App() {
     "/partner/cefla",
     "/partner/creval",
     "/partner/crif",
-    "/partner/fideuram",
+    "/partner/admiral",
     "/partner/rekeep"
   ];
 
@@ -32,7 +32,7 @@ function App() {
     "/partner/laverdi",
     "/partner/piccolo",
     "/partner/segugio",
-    "/partner/unicredit",
+    "/partner/luxottica",
     "/partner/vivaticket",
     "/partner/prometeia"
   ];
@@ -40,21 +40,21 @@ function App() {
   const projects = [
     {
       img: "easyaccess",
-      pdf: "/projects/EASYACCES.pdf",
+      pdf: "/projects/easyaccess.pdf",
       titolo: "EASYACCESS",
       sottotitolo: "Cefla",
       descrizione: "Gestione e controllo dei macchinari biomedicali."
     },
     {
       img: "valentina",
-      pdf: "/projects/VALENTINA.pdf",
+      pdf: "/projects/valentina.pdf",
       titolo: "VALENTINA",
       sottotitolo: "BPER",
       descrizione: "Progetto di intelligenza artificiale applicata a un assistente virtuale per il digital banking."
     },
     {
       img: "scenario",
-      pdf: "/projects/ESS.pdf",
+      pdf: "/projects/ess.pdf",
       titolo: "ECONOMIC SCENARIO SERVICE",
       sottotitolo: "Prometeia",
       descrizione: "Un servizio per integrare la gestione di scenari di mercato all'interno dei propri processi decisionali."
